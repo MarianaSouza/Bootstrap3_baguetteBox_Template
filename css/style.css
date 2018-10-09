@@ -1,0 +1,171 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.hero-banner {
+  background-image: url(../img/banner.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.about p, .product p {
+  font-size: 18px;
+  text-align: left !important;
+  margin-bottom: 2%;
+}
+
+.about {
+  padding: 3% 0 6% 0;
+}
+
+.product {
+  padding: 3% 0 3% 0;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  height: auto;
+}
+
+.title-about, .title-product {
+  margin-bottom: 2%;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 18px;
+  color: #85878c;
+}
+
+.first-gallery {
+  padding: 40px 0;
+}
+
+.first-gallery .thumbnail {
+  padding: 0;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: none;
+  transition: 0.15s ease-in-out;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+/*.first-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}*/
+
+/*.first-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}*/
+
+.first-gallery .caption {
+  padding: 26px 30px;
+  text-align: center;
+}
+
+.first-gallery .caption h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.first-gallery .caption p {
+  font-size: 12px;
+  color: #7b7d7d;
+  margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  height: auto;
+  width: 100%;
+  padding: 40px;
+  font-size: 13px;
+}
+
+footer a {
+  text-decoration: none;
+  list-style: none;
+  color: #d9d9d9;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.bottom {
+  font-size: 16px;
+}
+
+.bottom a i {
+  height: 80px;
+}
+
+.fa {
+  font-size: 1.5em !important;
+  color: #888;
+  text-align: center;
+  margin-top: 10px;
+  padding: 3px 10px 3px 3px;
+}
+
+.fa:hover {
+  color: #fff;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width:768px) {
+  h2 {
+    font-size: 25px;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .copy p {
+    font-size: 11px !important;
+  }
+
+  .row {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .hero-banner{
+    height: 500px;
+  }
+
+}
+
+@media (max-width:500px){
+  .hero-banner{
+    height: 350px;
+  }
+}
+
+@media (min-width:768px) {
+  .navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+}
